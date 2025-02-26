@@ -15,8 +15,11 @@
     <td></td>
   </tr>
 </table>"></li>
-      
-<h4>The datalist Element</h2>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The datalist Element</h2>
 <p>The datalist element specifies a list of pre-defined options for an input element.</p>
 
 <form action="/action_page.php">
@@ -32,4 +35,6 @@
 </form>
 
 <p><b>Note:</b> The datalist tag is not supported in Safari or IE9 (and earlier).</p>
-</h4>
+
+</body>
+</html>
