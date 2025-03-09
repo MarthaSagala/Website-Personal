@@ -20,6 +20,3 @@
                               <a href="#" class="nav-link">Contact Us</a>
                         </li>
                   </nav>
-            </header>
-      </body>
-</html>
