@@ -37,6 +37,22 @@
                     </div>
                     </div>
                   </section>
+                  <!-- About section -->
+                  <section class="about-section">
+                  <div class="section-content">
+                   <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="about"
+                    class="about-image">
+                   </div>
+                  <div class="about-details">
+                   <h2 class="section-title">About Us</h2>
+                   <p class="text">Hi saya adalah mahasiswa perpustakaan dan sains informasi 
+                   Universitas Sumatera Utara. Saya menggunakan Website ini sebagai wadah arsip 
+                   saya terhadap mata kuliah pengembangan web dan membuat perpustakaan pribadi.
+                   </p> 
+                  </div>
+                  </div>
+                  </section>
             </main>
       </body>
 </html>
