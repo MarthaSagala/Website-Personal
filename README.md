@@ -5,7 +5,7 @@
       </head>
       <body>
             <header>
-                  <nav class="navbar">
+                  <nav class="navbar section-content">
                         <a href="#" class=nav-logo">
                               <h1 class="logo-text"> Perpustakaan Martha Sagala</h1>
                         </a>
