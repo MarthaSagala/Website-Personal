@@ -7,7 +7,7 @@
             <header>
                   <nav class="navbar">
                         <a href="#" class=nav-logo">
-                              <h2 class="logo-text">Perpustakaan Martha Sagala</h2>
+                              <h1 class="logo-text"> Perpustakaan Martha Sagala</h1>
                         </a>
                         <ul class="nav-menu">
                         <li class="nav-item">
