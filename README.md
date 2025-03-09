@@ -29,14 +29,14 @@
                      <h2 class="title"> Blog pribadi</h2>
                      <h3 class="subtitle"> Make my archiev</h3>
                      <p class="description">Martha Sagala merupakan pencipta platform ini. 
-                     Martha sagala merupakan mahasiswa Perpustakaan dan Sains Informasi 
-                     Universitas Sumatera Utara. Tujuan dari platform ini untuk membuat platform 
-                     Perpustkaan ini sebagai media digital yang mengenalkan tentang perpustakaan 
-                     dengan mudah.</p>
+                     Tujuan dari platform ini untuk membuat platform Perpustkaan ini sebagai 
+                     media digital yang mengenalkan tentang perpustakaan dengan mudah.</p>
                      <div class="buttons">
                            <a href="#" class="[Kerja Sama](https://e-perpus.unud.ac.id/)"></a>
                      </div>
                     </div>
-                         
+                    </div>
                   </section>
             </main>
+      </body>
+</html>
