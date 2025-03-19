@@ -68,13 +68,6 @@ body {
   max-width: 60rem;
 }
 
-.hero .content-right img {
-  width: 400px;
-  height: auto;
-  position: relative;
-  animation: rotate 10s linear infinite;
-}
-
 .hero .content h1 {
   font-size: 2rem;
   color: #9a500a;
