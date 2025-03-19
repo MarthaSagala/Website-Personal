@@ -27,7 +27,7 @@ body {
   padding: 1.4rem 7%;
   background-color: rgba(209, 89, 29, 0.956);
   border-bottom: 1px solid var(--primary);
-  position: fixed;
+  position: flex;
   top: 0;
   left: 0;
   right: 0;
