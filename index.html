@@ -1,59 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Perpustakaan Martha Sagala</title>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Pribadi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .article {
+            flex: 2;
+            background-color: white;
+            padding: 20px;
+            margin-right: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog Pribadi Saya</h1>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Tentang Saya</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <div class="content">
+        <div class="article">
+            <h2>Artikel Terbaru</h2>
+            <p>Selamat datang di blog pribadi saya! Di sini, saya akan berbagi cerita dan pengalaman pribadi tentang berbagai topik. Jangan ragu untuk membaca dan memberi komentar di artikel-artikel yang ada.</p>
+            <h3>Judul Artikel</h3>
+            <p>Ini adalah isi dari artikel pertama saya. Di sini saya membahas tentang pengalaman saya belajar coding dan tips yang bisa membantu kalian yang baru memulai. Teruslah belajar dan jangan menyerah!</p>
+        </div>
+        
+        <div class="sidebar">
+            <h3>About Me</h3>
+            <p>Nama saya [Nama], seorang penggemar teknologi dan penulis. Saya membuat blog ini untuk berbagi pengetahuan dan pengalaman hidup saya. Semoga bermanfaat!</p>
+        </div>
+    </div>
 
-    <!-- my style -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    
-    <!-- navbar start -->
-    <nav class="navbar">
-      <a hreef="#" class="navbar-logo"
-        >Perpustakaan<span>Martha Sagala</span></a
-      >
-
-      <div class="navbar-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">Tentang Kami</a></li>
-          <li><a href="#kontak">Kontak Kami</a></li>
-          <li><a href="#arsip">Arsip Kami</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- navbar end -->
-
-    <!-- hero section start -->
-    <section class="hero" id="home">
-      <main class="content">
-        <h1>Selamat Datang</h1>
-        <p>
-          Selamat datang di perpustakaan pribadi saya. Perpustakaan ini sebagai
-          media untuk menyimpan hasil materi kuliah, kreatifitas, dan proyek
-          yang berhasil saya kerjakan. hal ini berguna untuk memudahkan saya
-          dalam sistem temu balik dan sebagai media untuk mengembangkan
-          kreatifitas.
-        </p>
-      </main>
-    </section>
-    <!-- hero section end -->
-
-    
-    
-    <!-- my javascript -->
-    <script scr="js/script,js"></script>
-  </body>
+    <footer>
+        <p>&copy; 2025 Blog Pribadi Saya. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
 </html>
