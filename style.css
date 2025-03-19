@@ -44,14 +44,15 @@ body {
   color: var(--primary);
 }
 
-.navbar .navbar-nav ul {
+.navbar .navbar-nav a {
   color: #fff;
   display: inline-block;
   font-size: 1.2rem;
   margin: 0%;
+  list-style: none;
 }
 
-.navbar .navbar-nav ul:hover {
+.navbar .navbar-nav a:hover {
   color: var(--background);
 }
 
