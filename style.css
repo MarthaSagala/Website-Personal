@@ -194,3 +194,24 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: block;
+    text-align: left;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .navbar .dropdown .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar .nav-link {
+    padding: 10px 15px;
+  }
