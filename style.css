@@ -254,16 +254,7 @@ footer {
   .footer-right {
     margin-bottom: 10px;
   }
-
-  .footer-right ul {
-    padding-top: 10px;
-  }
-
-  .footer-right ul li {
-    display: block;
-    margin: 5px 0;
-  }
-
+  
 /* Responsiveness */
 @media (max-width: 768px) {
   .navbar ul {
