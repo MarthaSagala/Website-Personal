@@ -207,42 +207,6 @@ footer {
   font-size: 14px;
 }
 
-.footer-right ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-right ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-.footer-right ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.footer-right ul li a:hover {
-  text-decoration: underline;
-}
-
-.social-links {
-  margin-top: 20px;
-}
-
-.social-links a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 18px;
-}
-
-.social-links a:hover {
-  color: #ff9900;
-}
-
 /* Responsiveness for Footer */
 @media (max-width: 768px) {
   .footer-content {
