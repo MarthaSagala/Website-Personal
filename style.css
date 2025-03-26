@@ -15,28 +15,44 @@ body {
 }
 
 .navbar {
-  display: block; /* Changed from block to flex */
+  display: block;
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
+  background-color: rgba(209, 89, 29, 0.956);
+  border-bottom: 1px solid var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .navbar .navbar-logo {
   font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
 }
 
 .navbar .navbar-nav a {
   color: #fff;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0%;
+  list-style: none;
 }
 
 .navbar .navbar-nav a:hover {
-    color: var(--primary);
+    color: var(--background);
     background-color: rgba(255,255,255,0.2); /* Light background on hover */
 }
 
 /* hero section */
 .hero {
-    min-height: calc(100vh - (56px + (1.4rem *2))); /* Adjust height for navbar */
+  min-height: calc(100vh - (56px + (1.4rem *2))); /* Adjust height for navbar */
+  display: flex;
+  align-items: center;
+  color: rgb(25, 24, 24);
 }
 
 /* about section */
