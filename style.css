@@ -15,7 +15,7 @@ body {
 }
 
 .navbar {
-  display: flex; /* Changed from block to flex */
+  display: block; /* Changed from block to flex */
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
