@@ -83,3 +83,39 @@ body {
         margin-left: 0; /* Menghilangkan margin kiri pada mobile */
     }
 }
+
+/* about section */
+.about,
+.kontak {
+  padding: 10rem 7% 1.4rem;
+  color: #9a500a;
+  min-height: 800px;
+}
+
+.about h2,
+.kontak h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .content {
+  flex: 2 2 25rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
