@@ -31,7 +31,7 @@
   <!-- navbar end -->
 
   <!-- kontak section start -->
-   <section id="kontak" class="kontak">
+  <section id="kontak" class="kontak">
   <h2>Kontak Kami</h2>
   <p>
     Bagaimana dengan pengalaman anda mengunjungi website saya. Jika terdapat
@@ -48,18 +48,18 @@
       ></iframe>
     </div>
 
-    <form action="">
+    <form action="https://formspree.io/f/mzzrdjlq" method="POST">
       <div class="input-group">
         <i data-feather="user"></i>
-        <input type="text" placeholder="Nama" />
+        <input type="text" name="name" placeholder="Nama" required />
       </div>
       <div class="input-group">
         <i data-feather="mail"></i>
-        <input type="text" placeholder="Email" />
+        <input type="email" name="email" placeholder="Email" required />
       </div>
       <div class="input-group">
         <i data-feather="message-circle"></i>
-        <input type="text" placeholder="Pesan" />
+        <textarea name="message" placeholder="Pesan" rows="4" required></textarea>
       </div>
       <button type="submit" class="btn">Kirim Pesan</button>
     </form>
@@ -67,10 +67,12 @@
 </section>
   <!-- kontak section end -->
 
-  <script src="https://unpkg.com/feather-icons"></script>
+<!-- Feather Icons -->
+<script src="https://unpkg.com/feather-icons"></script>
 <script>
   feather.replace();
 </script>
+<!-- Feather Icons end -->
   
 </body> 
 </html> 
