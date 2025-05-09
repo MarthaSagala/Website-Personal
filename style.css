@@ -119,6 +119,39 @@ body {
   line-height: 1.5;
 }
 
+.about .table-about {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff8f1;
+  color: #5a2e00;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about .table-about th,
+.about .table-about td {
+  border: 1px solid #9a500a;
+  padding: 1rem;
+  text-align: left;
+}
+
+.about .table-about th {
+  background-color: #f59a5d;
+  color: white;
+  width: 25%;
+}
+
+.about .table-about a {
+  color: #a2470a;
+  text-decoration: underline;
+}
+
+.about .table-about a:hover {
+  color: #9a500a;
+}
+
+
 /* kontak section */
 .kontak p {
   text-align: center;
