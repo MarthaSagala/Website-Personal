@@ -278,3 +278,51 @@ body {
   margin-right: 10px;
 }
 
+.arsip {
+  padding: 10rem 7% 5rem;
+  background-color: #fff8f1;
+  color: #5a2e00;
+  min-height: 100vh;
+}
+
+.arsip h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #9a500a;
+}
+
+.arsip-subtext {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #7a3e00;
+}
+
+.arsip-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.arsip-table th, .arsip-table td {
+  border: 1px solid #d6a065;
+  padding: 1rem;
+  text-align: left;
+}
+
+.arsip-table th {
+  background-color: #f59a5d;
+  color: white;
+}
+
+.arsip-table tbody tr:nth-child(even) {
+  background-color: #f9e7d0;
+}
+
+.arsip-table tbody tr:hover {
+  background-color: #f5cda3;
+}
+
