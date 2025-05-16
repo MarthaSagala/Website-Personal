@@ -70,6 +70,44 @@
 </section>
     <!-- search end -->
 
+<div id="cookie-banner" class="cookie-banner">
+  <div class="cookie-banner-content">
+    <span>
+      Website ini menggunakan cookies untuk meningkatkan pengalaman Anda.
+    </span>
+    <div class="cookie-banner-actions">
+      <button class="accept" onclick="acceptCookie()">Terima</button>
+      <button class="manage" onclick="openCookieModal()">Kelola Cookie</button>
+    </div>
+  </div>
+</div>
+    
+<!-- Modal Kelola Cookie start-->
+<div id="cookie-modal" class="cookie-modal">
+  <div class="cookie-modal-content">
+    <h3>Kelola Preferensi Cookie</h3>
+    <form id="cookieForm">
+      <label>
+        <span>Cookie Fungsional (wajib)</span>
+        <input type="checkbox" checked disabled>
+      </label>
+      <label>
+        <span>Cookie Analitik</span>
+        <input type="checkbox" id="analytics-cookie">
+      </label>
+      <label>
+        <span>Cookie Iklan</span>
+        <input type="checkbox" id="ads-cookie">
+      </label>
+      <div style="margin-top:18px;">
+        <button type="submit" class="save">Simpan</button>
+        <button type="button" class="close" onclick="closeCookieModal()">Batal</button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Model Kelola Cookie end -->
+
 <!-- Feather Icons -->
 <script src="https://unpkg.com/feather-icons"></script>
 <script>
