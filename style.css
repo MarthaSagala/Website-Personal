@@ -278,66 +278,103 @@ body {
   margin-right: 10px;
 }
 
-* {
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
-    background-color: #f2f2f2;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    padding: 20px;
+    background: #f4f4f4;
+    color: #333;
 }
 
-.container {
-    background-color: #ffffff;
-    max-width: 600px;
-    margin: auto;
+header {
+    background: #0066cc;
+    color: white;
     padding: 30px;
+    text-align: center;
+}
+
+.ebook-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.ebook-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
-}
-
-h1 {
     text-align: center;
-    margin-bottom: 25px;
-    color: #333;
 }
 
-form label {
-    display: block;
-    margin-bottom: 6px;
-    margin-top: 15px;
-    color: #333;
-    font-weight: bold;
+.ebook-card img {
+    width: 60px;
+    margin-bottom: 15px;
 }
 
-form input[type="text"],
-form input[type="number"],
-form select,
-form textarea {
-    width: 100%;
+.ebook-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.ebook-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.ebook-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #0066cc;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.add-form {
+    background: #fff;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.add-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-form input,
+.add-form textarea {
     padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    resize: vertical;
 }
 
-form button {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    margin-top: 20px;
-    background-color: #4CAF50;
+.add-form button {
+    background-color: #28a745;
     color: white;
+    padding: 12px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #45a049;
+.add-form button:hover {
+    background-color: #218838;
 }
 
 /* Cookie Banner */
