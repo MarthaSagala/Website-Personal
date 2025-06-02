@@ -278,52 +278,66 @@ body {
   margin-right: 10px;
 }
 
-.arsip {
-  padding: 10rem 7% 5rem;
-  background-color: #fff8f1;
-  color: #5a2e00;
-  min-height: 100vh;
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-.arsip h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #9a500a;
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
 }
 
-.arsip-subtext {
-  text-align: center;
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-  color: #7a3e00;
+.container {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
-.arsip-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 1rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  background-color: #fff;
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
 }
 
-.arsip-table th, .arsip-table td {
-  border: 1px solid #d6a065;
-  padding: 1rem;
-  text-align: left;
+form label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    color: #333;
+    font-weight: bold;
 }
 
-.arsip-table th {
-  background-color: #f59a5d;
-  color: white;
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
 }
 
-.arsip-table tbody tr:nth-child(even) {
-  background-color: #f9e7d0;
+form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.arsip-table tbody tr:hover {
-  background-color: #f5cda3;
+form button:hover {
+    background-color: #45a049;
 }
 
 /* Cookie Banner */
