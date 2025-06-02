@@ -1,1 +1,39 @@
- vhghvikb
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Arsip Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Pengisian Arsip Buku</h1>
+        <form action="#" method="post">
+            <label for="judul">Judul Buku:</label>
+            <input type="text" id="judul" name="judul" required>
+
+            <label for="penulis">Penulis:</label>
+            <input type="text" id="penulis" name="penulis" required>
+
+            <label for="tahun">Tahun Terbit:</label>
+            <input type="number" id="tahun" name="tahun" min="1000" max="2099" required>
+
+            <label for="kategori">Kategori:</label>
+            <select id="kategori" name="kategori" required>
+                <option value="">-- Pilih Kategori --</option>
+                <option value="fiksi">Fiksi</option>
+                <option value="nonfiksi">Non-Fiksi</option>
+                <option value="pendidikan">Pendidikan</option>
+                <option value="sejarah">Sejarah</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+
+            <label for="deskripsi">Deskripsi Singkat:</label>
+            <textarea id="deskripsi" name="deskripsi" rows="4" required></textarea>
+
+            <button type="submit">Simpan Arsip</button>
+        </form>
+    </div>
+</body>
+</html>
