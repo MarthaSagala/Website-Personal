@@ -3,37 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Arsip Buku</title>
+    <title>Perpustakaan Digital</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Form Pengisian Arsip Buku</h1>
-        <form action="#" method="post">
-            <label for="judul">Judul Buku:</label>
-            <input type="text" id="judul" name="judul" required>
 
-            <label for="penulis">Penulis:</label>
-            <input type="text" id="penulis" name="penulis" required>
+    <header>
+        <h1>Perpustakaan Digital</h1>
+        <p>Selamat datang! Jelajahi koleksi e-book kami.</p>
+    </header>
 
-            <label for="tahun">Tahun Terbit:</label>
-            <input type="number" id="tahun" name="tahun" min="1000" max="2099" required>
+    <section class="ebook-list">
+        <!-- Koleksi E-Book -->
+        <div class="ebook-card">
+            <img src="https://img.icons8.com/ios/100/pdf-2.png" alt="Ebook">
+            <h3>Matematika Dasar</h3>
+            <p>Buku pelajaran matematika dasar untuk kelas X.</p>
+            <a href="https://drive.google.com/file/d/1v8xQ3dpYXu27Lxxxxxx/view" target="_blank">Buka E-Book</a>
+        </div>
 
-            <label for="kategori">Kategori:</label>
-            <select id="kategori" name="kategori" required>
-                <option value="">-- Pilih Kategori --</option>
-                <option value="fiksi">Fiksi</option>
-                <option value="nonfiksi">Non-Fiksi</option>
-                <option value="pendidikan">Pendidikan</option>
-                <option value="sejarah">Sejarah</option>
-                <option value="lainnya">Lainnya</option>
-            </select>
+        <div class="ebook-card">
+            <img src="https://img.icons8.com/ios/100/pdf-2.png" alt="Ebook">
+            <h3>Fisika SMA</h3>
+            <p>Modul fisika lengkap untuk persiapan UTBK.</p>
+            <a href="https://drive.google.com/file/d/1abcdeXXXXXX/view" target="_blank">Buka E-Book</a>
+        </div>
 
-            <label for="deskripsi">Deskripsi Singkat:</label>
-            <textarea id="deskripsi" name="deskripsi" rows="4" required></textarea>
+        <!-- Tambah koleksi secara manual -->
+    </section>
 
-            <button type="submit">Simpan Arsip</button>
+    <section class="add-form">
+        <h2>Tambah Koleksi E-Book</h2>
+        <form id="ebookForm">
+            <input type="text" id="judul" placeholder="Judul Buku" required>
+            <textarea id="deskripsi" placeholder="Deskripsi Buku" required></textarea>
+            <input type="url" id="link" placeholder="Link Google Drive (PDF)" required>
+            <button type="submit">Tambah</button>
         </form>
-    </div>
+    </section>
+
+    <script>
+        const form = document.getElementById('ebookForm');
+        const list = document.querySelector('.ebook-list');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const judul = document.getElementById('judul').value;
+            const deskripsi = document.getElementById('deskripsi').value;
+            const link = document.getElementById('link').value;
+
+            const card = document.createElement('div');
+            card.className = 'ebook-card';
+            card.innerHTML = `
+                <img src="https://img.icons8.com/ios/100/pdf-2.png" alt="Ebook">
+                <h3>${judul}</h3>
+                <p>${deskripsi}</p>
+                <a href="${link}" target="_blank">Buka E-Book</a>
+            `;
+
+            list.appendChild(card);
+            form.reset();
+        });
+    </script>
+
 </body>
 </html>
