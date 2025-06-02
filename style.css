@@ -278,103 +278,66 @@ body {
   margin-right: 10px;
 }
 
-body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    background: #f4f4f4;
-    color: #333;
+/* Arsip Section */
+.arsip {
+  background-color: #fff;
+  padding: 4rem 7%;
+  color: #5a2e00;
+  min-height: 600px;
 }
 
-header {
-    background: #0066cc;
-    color: white;
-    padding: 30px;
-    text-align: center;
+.arsip h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #a2470a;
 }
 
-.ebook-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 30px;
-    justify-content: center;
+.arsip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-.ebook-card {
-    background: white;
-    padding: 20px;
-    width: 250px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    text-align: center;
+.arsip-card {
+  background: #fff8f1;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s;
 }
 
-.ebook-card img {
-    width: 60px;
-    margin-bottom: 15px;
+.arsip-card:hover {
+  transform: translateY(-5px);
 }
 
-.ebook-card h3 {
-    margin: 10px 0;
-    font-size: 18px;
+.arsip-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #9a500a;
 }
 
-.ebook-card p {
-    font-size: 14px;
-    color: #555;
+.arsip-card p {
+  font-size: 14px;
+  color: #555;
 }
 
-.ebook-card a {
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
-    background: #0066cc;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 5px;
+.arsip-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #a2470a;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
-.add-form {
-    background: #fff;
-    padding: 30px;
-    margin: 30px;
-    border-radius: 8px;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.add-form h2 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.add-form form {
-    display: flex;
-    flex-direction: column;
-}
-
-.add-form input,
-.add-form textarea {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.add-form button {
-    background-color: #28a745;
-    color: white;
-    padding: 12px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.add-form button:hover {
-    background-color: #218838;
+.arsip-card a:hover {
+  background-color: #9a500a;
 }
 
 /* Cookie Banner */
