@@ -279,137 +279,126 @@ body {
 }
 
 /* Arsip Section */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.arsip {
+  padding: 10rem 7% 1.4rem;
+  background-color: var(--background);
+  color: #9a500a;
+  min-height: 800px;
 }
 
-/* Body dan layout dasar */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f2f4f8;
-    color: #333;
-    padding: 20px;
-}
-
-/* Header */
-header {
-    text-align: center;
-    background-color: #2e86de;
-    color: white;
-    padding: 40px 20px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+.arsip h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Daftar e-book */
 .ebook-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
 /* Kartu e-book */
 .ebook-card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.2s;
+  background-color: #fff8f1;
+  border: 1px solid #9a500a;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 260px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
 }
 
 .ebook-card:hover {
-    transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .ebook-card img {
-    max-width: 80px;
-    margin-bottom: 10px;
+  max-width: 100px;
+  margin-bottom: 1rem;
 }
 
 .ebook-card h3 {
-    font-size: 1.2em;
-    margin: 10px 0 5px;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #9a500a;
 }
 
 .ebook-card p {
-    font-size: 0.95em;
-    margin-bottom: 15px;
-    color: #555;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #5a2e00;
 }
 
 .ebook-card a {
-    display: inline-block;
-    background-color: #27ae60;
-    color: white;
-    text-decoration: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+  background-color: #f59a5d;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .ebook-card a:hover {
-    background-color: #219150;
+  background-color: #9a500a;
 }
 
 /* Formulir tambah e-book */
 .add-form {
-    background-color: white;
-    max-width: 500px;
-    margin: 40px auto 0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff8f1;
+  border: 1px solid #9a500a;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5a2e00;
 }
 
 .add-form h2 {
-    margin-bottom: 15px;
-    text-align: center;
-    color: #2c3e50;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  color: #9a500a;
 }
 
 .add-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .add-form input[type="text"],
 .add-form input[type="url"],
 .add-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1em;
+  padding: 0.8rem;
+  border: 1px solid #9a500a;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
 }
 
 .add-form textarea {
-    resize: vertical;
-    min-height: 80px;
+  resize: vertical;
+  min-height: 100px;
 }
 
 .add-form button {
-    background-color: #2e86de;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background-color: #f59a5d;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .add-form button:hover {
-    background-color: #256bcc;
+  background-color: #9a500a;
 }
 
 /* Cookie Banner */
